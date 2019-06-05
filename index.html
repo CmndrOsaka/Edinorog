@@ -107,11 +107,13 @@
             <div class="col-lg-4 col-md-5">
                 <div class="form-container">
                     <div class="media-container-column" data-form-type="formoid"></div>
-			
+			<div mbr-form class="media-container-column col-lg-8">
+<div data-form-alert hidden>Ваше сообщение успешно отправлено!</div>
                         <!---Formbuilder Form--->
                         <form action="mail.php" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form">
-				<input type="hidden" name="project_name" value="Имя отправителя"> <input type="hidden" name="admin_email" value="yorusoi@mail.ru"> <input type="hidden" name="form_subject" value="ОБРАТНАЯ СВЯЗЬ"> 
-                            <div class="row">
+				<div><input type="hidden" name="project_name" value="Имя отправителя"> <input type="hidden" name="admin_email" value="yorusoi@mail.ru"> <input type="hidden" name="form_subject" value="ОБРАТНАЯ СВЯЗЬ"> 
+                           </div>
+					<div class="row">
                                 
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                                 </div>
@@ -234,6 +236,7 @@
   <script src="assets/gallery/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
-  
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
